@@ -1,0 +1,63 @@
+title: 자라나는 개발자
+author: ahyeon
+email: ah.lee.dev@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Happy Dev :)
+show_excerpts: true # set to true to show excerpts on the homepage
+permalink: /:title
+url: "https://ahyeon0508.github.io"
+baseurl: "" 
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Ahyeon Lee
+  tagline: Developer
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+  search: true # set to true to enable searchbar
+  dark_mode: true # set to true to add dark mode toggle
+  portfolio_image: "assets/user.jpg" # the path from the base directory of the site to the image to display (no / at the start)
+  disqus_shortname: ahyeon0508-github-io
+  html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
+  condensed_mobile:
+    #- home
+    - page
+    - post
+  # generate social links in footer
+  social_links:
+    github:  ahyeon0508
+    #dribbble: jekyll
+    #flickr:   jekyll
+    #instagram: jekyll
+    #pinterest: jekyll
+    #youtube: jekyll
+    #facebook: jekyll
+    #soundcloud: jekyll
+    #telegram: jekyll
+    #gitlab: jekyll
+    email: ah.lee.dev@gmail.com
+    # notion: ahyeon0508
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+# theme: plainwhite
+remote_theme: samarsault/plainwhite-jekyll
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+encoding: utf-8

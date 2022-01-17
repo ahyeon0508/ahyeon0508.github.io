@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="{{ site.plainwhite.html_lang }}">
+
+<head>
+  {%- include head.html -%}
+</head>
+
+{%- if site.plainwhite.condensed_mobile contains page.layout -%}
+{% assign condensed_class = "condensed" %}
+{% else %}
+{% assign condensed_class = "" %}
+{%- endif -%}
+
+<body>
+  <main class="container"  style="margin-top:30px">
+    <section class="about">
+      <div class="about-header {{condensed_class}}">
+      <div class="about-title">
+      <a href="{{ "/" | relative_url}}">
+        {% if site.plainwhite.portfolio_image_dark and site.plainwhite.dark_mode %}
+        <img class="light" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" />
+        <img class="dark" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image_dark }}" alt="{{ site.plainwhite.name }}" />
+        {% else %}
+        <img src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" />
+        {% endif %}
+      </a>
+      <h2 id="title">
+        <a href="{{ "/" | relative_url }}">{{ site.plainwhite.name }}</a>
+      </h2>
+      </div>
+      {%- if site.plainwhite.tagline -%}
+      <p class="tagline">{{ site.plainwhite.tagline }}</p>
+      {%- endif -%}
+      </div>
+      {% capture footer %}
+      {%- if site.plainwhite.social_links != '' -%}
+      <ul class="social about-footer {{condensed_class}}">
+        {%- if site.plainwhite.social_links.github -%}
+        <a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
+          <li>
+            <i class="icon-github-circled"></i>
+          </li>
+        </a>
+        {%- endif -%}
+        {%- if site.plainwhite.social_links.email -%}
+        <a href="mailto:{{ site.plainwhite.social_links.email }}" target="_blank">
+          <li>
+            <i class="icon-mail-alt"></i>
+          </li>
+        </a>
+        {%- endif -%}
+        {%- if site.plainwhite.social_links.notion -%}
+        <a href="https://bit.ly/{{ site.plainwhite.social_links.notion }}" target="_blank">
+          <li>
+            <i class="icon-github-circled"></i>
+          </li>
+        </a>
+        {%- endif -%}
+      </ul>
+      {%- endif -%}
+      {%- if site.plainwhite.navigation -%}
+      <nav class="navigation about-footer {{condensed_class}}">
+        <ul>
+          {% for link in site.plainwhite.navigation %}
+          <li>
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      {%- endif -%}
+      <p class="about-footer {{condensed_class}}">&copy;
+        {{ "now" | date: "%Y" }}</p>
+      {%- if site.plainwhite.dark_mode -%}
+      <div class="about-footer {{condensed_class}}">
+        <p>Dark Mode
+          <i class="icon-moon"></i>
+          <label class="switch">
+            <input type="checkbox" class="dark-mode-toggle">
+            <span class="slider round" onclick="toggleDarkMode()"></span>
+          </label>
+        </p>
+      </div>
+      {%- endif -%}
+      {% endcapture %}
+      {{ footer }}
+    </section>
+    <section class="content">
+      {{ content }}
+    </section>
+    <footer class="{{condensed_class}}">
+      {{ footer }}
+    </footer>
+  </main>
+  {% if site.plainwhite.dark_mode %}
+  <script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
+  {% endif %}
+
+  {%- if site.plainwhite.analytics_id -%}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.plainwhite.analytics_id }}');
+  </script>
+  {%- endif -%}
+
+  {% if site.plainwhite.search %}
+  <script src="{{ "/assets/js/simple-jekyll-search.min.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/search.js" | relative_url }}"></script>
+  {% endif %}
+</body>
+
+</html>
