@@ -2,6 +2,7 @@
 layout: post
 title:  "[220118] 부캠 2일차.. 벌써 감당이 안 되는걸?ㅎ"
 date: 2022-01-18
+categories: [일상, TIL]
 tags: [일상, TIL]
 comments: true
 ---

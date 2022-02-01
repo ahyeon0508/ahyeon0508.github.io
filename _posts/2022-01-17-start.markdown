@@ -2,6 +2,7 @@
 layout: post
 title:  "🙋‍♀️"
 date: 2022-01-17
+categories: [일상]
 tags: [일상]
 comments: true
 ---

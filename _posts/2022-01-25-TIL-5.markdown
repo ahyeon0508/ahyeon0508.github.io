@@ -2,6 +2,7 @@
 layout: post
 title:  "[220125] 내 머리는 너무나 나빠서🎵"
 date: 2022-01-25
+categories: [일상, TIL]
 tags: [일상, TIL]
 comments: true
 ---

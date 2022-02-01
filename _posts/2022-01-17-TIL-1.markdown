@@ -2,6 +2,7 @@
 layout: post
 title:  "[220117] 매우매우매우 바빴던 날🙄"
 date: 2022-01-17
+categories: [일상, TIL]
 tags: [일상, TIL]
 comments: true
 ---
