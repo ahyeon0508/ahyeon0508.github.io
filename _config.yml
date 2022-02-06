@@ -67,3 +67,5 @@ analytics:
   google:
     tracking_id: "G-4WZK0ERG0G"
     anonymize_ip: # true, false (default)
+
+future: true
