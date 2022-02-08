@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "[220208] CNN"
+date: 2022-02-08 23:59:59
+categories: [TIL]
+tags: [TIL]
+comments: true
+---
+
+오늘은 CNN에 대해 공부한 날이다. CNN 모델의 변천사에 대해 알 수 있어서 좋았고, 평소에 많이 들어봤던 ResNet, GoogLeNet, YOLO 등의 모델에 대해 살펴볼 수 있어서 재밌었다. 내일은 RNN에 대해 공부하는데, 강의 퀄리티가 좋아 기대된다.
+
+토익 공부는 단어 외우기와 RC PART 7 위주로 공부하였다. LC는 가볍게 유튜브에 정리된 PART 2 강의를 보았는데, 와닿지가 않아 어떻게 해야할지 고민된다. PART 2에서 10개만 덜 틀려도 괜찮을텐데..
+
+📝 TIL
+- 부캠
+- 알고리즘 문제 풀기 - [수들의 합](https://github.com/ahyeon0508/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89/%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9.md)
+- 토익
