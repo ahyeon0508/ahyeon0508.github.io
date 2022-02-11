@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "[220211] Visualization"
+date: 2022-02-11 20:17:10
+categories: [TIL]
+tags: [TIL]
+comments: true
+---
+오늘은 시각화 강의를 듣는 날이었다.
+여러 가지 시각화 방법에 대해 배웠는데 하나씩 정리해보고자 한다.
+
+- 회전, 주기성 등을 표현하기에 적합한 Polar Plot(극 좌표계)은 거리(R)과 각(Theta)을 사용한 plot이다.
+- Radar Plot은 극좌표계를 사용하는 대표적인 차트로서 별 모양으로 생겨 Star Plot으로 불리기도 한다. 이는 보통 운동 선수 능력치 분석 등에서 많이 사용된다.
+- Pie Chart는 전체를 백분위로 나타낼 때 유용하게 쓰고 많이 사용되지만 지양하는게 좋다고 한다. 이는 비교에 어려움이 있어 bar plot이 더 유용하다고 한다. 사용을 꼭 하고 싶다면 bar plot과 함께 쓰는 것을 권장한다.
+- Pie Chart의 응용으로 Donut Chart(인포그래픽에서 종종 사용), Sunburst Chart(계층적 데이터를 시각화)에 대해 배웠다. 두 가지 모두 Plotly로 쉽게 사용이 가능하다.
+- 결측치를 시각화하는 Missingno 같은 경우는 EDA에서 사용하면 좋을 것 같다는 생각을 했다.
+- 또한 Treemap에 대해 배웠는데, 계층적 데이터를 직사가곃ㅇ을 사용하여 포함 관계를 표현하는 방법이다.
+- 내가 가장 마음에 들어했던 것은 Waffle Chart인데, 와플 형태로 discrete하게 값을 나타내는 차트이다. Icon을 이용해서 나타내면 정말 귀엽다.
+- 벤 다이어그램은 EDA보다는 출판 및 프레젠테이션에서 사용되는 것으로 파이썬으로 디테일 하게 사용하는 것은 다른 툴(draw.io, ppt)에 비해 어렵다.
+
+그리고 오늘은 LC을 정말 열심히 공부했다! 20일 시험까지 화이팅😎
+
+📝 TIL
+- 부캠
+- 알고리즘 문제 풀기 - [정수 제곱근](https://github.com/ahyeon0508/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89/%EC%A0%95%EC%88%98%20%EC%A0%9C%EA%B3%B1%EA%B7%BC.md)
+- 토익
