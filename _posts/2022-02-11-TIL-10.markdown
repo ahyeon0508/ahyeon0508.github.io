@@ -18,9 +18,8 @@ comments: true
 - 내가 가장 마음에 들어했던 것은 Waffle Chart인데, 와플 형태로 discrete하게 값을 나타내는 차트이다. Icon을 이용해서 나타내면 정말 귀엽다.
 - 벤 다이어그램은 EDA보다는 출판 및 프레젠테이션에서 사용되는 것으로 파이썬으로 디테일 하게 사용하는 것은 다른 툴(draw.io, ppt)에 비해 어렵다.
 
-그리고 오늘은 LC을 정말 열심히 공부했다! 20일 시험까지 화이팅😎
+그리고 오늘은 LC를 정말 열심히 공부했다! 20일 시험까지 화이팅😎
 
 📝 TIL
 - 부캠
-- 알고리즘 문제 풀기 - [정수 제곱근](https://github.com/ahyeon0508/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/%EC%9D%B4%EB%B6%84%20%ED%83%90%EC%83%89/%EC%A0%95%EC%88%98%20%EC%A0%9C%EA%B3%B1%EA%B7%BC.md)
 - 토익
