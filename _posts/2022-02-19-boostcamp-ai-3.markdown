@@ -17,4 +17,4 @@ comments: true
 - [AI 서비스 개발 기초 - (2)](https://ahyeon0508.github.io/TIL-12)
 - [AI 서비스 개발 기초 - (3)](https://ahyeon0508.github.io/TIL-13)
 - [AI 서비스 개발 기초 - (4)](https://ahyeon0508.github.io/TIL-14)
-- [데이터 시각화 & 도커]](https://ahyeon0508.github.io/TIL-15)
+- [데이터 시각화 & 도커](https://ahyeon0508.github.io/TIL-15)
