@@ -71,7 +71,7 @@
       {%- endif -%}
       <p class="about-footer {{condensed_class}}">&copy;
         {{ "now" | date: "%Y" }}</p>
-      {%- if site.plainwhite.dark_mode -%}
+      <!-- {%- if site.plainwhite.dark_mode -%}
       <div class="about-footer {{condensed_class}}">
         <p>Dark Mode
           <i class="icon-moon"></i>
@@ -81,7 +81,7 @@
           </label>
         </p>
       </div>
-      {%- endif -%}
+      {%- endif -%} -->
       {% endcapture %}
       {{ footer }}
     </section>
