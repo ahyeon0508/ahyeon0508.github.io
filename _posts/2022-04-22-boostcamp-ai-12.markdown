@@ -5,6 +5,7 @@ date: 2022-04-22 16:58:36
 categories: [부스트캠프 AI Tech]
 tags: [부캠]
 comments: true
+published: true
 ---
 이번 주는 깃허브 협업하는 방법과 강의 수강, 스페셜 미션을 기준으로 학습을 진행했다. 
 
