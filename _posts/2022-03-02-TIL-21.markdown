@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "[220302] TIL"
+date: 2022-03-02 22:15:16
+categories: [TIL]
+tags: [TIL]
+comments: true
+---
+오늘은 내일이 대회 마지막 날이기에 팀원들과 함께 줌을 키고 모델 성능 향상에 힘을 썼다.  
+F1 score가 조금이지만 계속 상승하는 것을 보니 너무 뿌듯하다😁  
+그리고 오늘부터 다시 알고리즘 스터디를 시작하기로 했다. 처음부터 세세하게 다시 공부할 예정이다.  
+코테가 내 발목을 잡지 않도록!  
+
+📝 TIL
+- 부캠
+- 알고리즘 - [비밀번호 발음하기](https://github.com/ahyeon0508/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/%EB%AC%B8%EC%9E%90%EC%97%B4/%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%20%EB%B0%9C%EC%9D%8C%ED%95%98%EA%B8%B0.md)

@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "[220223] TIL"
+date: 2022-02-23 22:57:58
+categories: [TIL]
+tags: [TIL]
+comments: true
+---
+Competition 진행중..⭐
+
+이번주 강의는 오늘로 끝났다. 오늘 수강했던 내용 중에서 가장 기억에 남는 것은 TTA(Test Time Augmnetiation)이다. 테스트 이미지를 Augmentation 후 모델 추론, 출력된 여러 가지 결과를 앙상블 하는 기법이다. 테스트 이미지를 Augmentation 한다니 완전 신기하다!
+
+우선 나의 목표는 내일까지 결과물을 한 번 제출하려고 한다.
+
+📝 TIL
+- 부캠

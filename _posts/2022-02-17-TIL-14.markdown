@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "[220217] AI 서비스 개발 기초 - (4)"
+date: 2022-02-17 23:30:21
+categories: [TIL]
+tags: [TIL]
+comments: true
+---
+MLflow 지옥 경험중..🔥
+
+단순히 MLflow를 설치해서 실행해보는 것까지는 오타만 내지 않으면 쉬운데 MLflow Tracking Server와 외부 Storage 사용하기 파트부터 스페셜 미션이 정말 미쳤다..   오랜만에 정말 빡공중😥 그리고 아직도 해결 못 함ㅠㅠㅠ
+
+📝 TIL
+- 부캠

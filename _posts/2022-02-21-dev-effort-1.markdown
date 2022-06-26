@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "[MLflow] Docker를 이용한 MLflow 환경 설정"
+date: 2022-02-21 20:40:30
+categories: [부스트캠프 AI Tech, 삽질 정리]
+tags: [부캠, 삽질]
+comments: true
+---
+5주차 부캠에서는 MLflow와 Docker에 대해 배웠다.  
+두개 모두 처음 배워보는 것이라 매우 재밌었지만 오류들로 인해 4일동안 고통을 받았었다🤣  
+그리고 오늘 새벽 드디어 모든 오류를 끝내고 성공했기에 <b>삽질 정리</b>라는 컨텐츠로 핵심 포인트만 글로 작성해보려고 한다!
+
+<h3>🌳 인트로</h3>
+스페셜 미션 중에 도커를 이용하여 개인의 Local에 MLflow 환경을 설정하는 것이 있었다.
+그전에 도커 설치나 이미지 만들기 하는 것, pip로 MLflow을 설치해서 실행해보는 것은 오타를 내지 않거나 서버를 열어두고 실행해야는데 그것을 모르고 했던 것을 제외하고는 큰 문제는 없었다. (물론 여기에서도 팀원분들의 도움을 많이 받았다) <b>하지만 윈도우로 인해 큰 문제가 생겼다..</b>
+
+<h3>❗ 에러 발생 및 해결 과정</h3>
+1) <b>윈도우 경로 문제</b>  
+- C에서 잘려나간 User 경로로 인해 발생한 에러
+![image](https://user-images.githubusercontent.com/44939208/154952467-2b39c1c8-bef9-4aa0-9b01-6c5113d2acfe.png)
+=> wsl2, Window Terminal, Ubuntu 설치
+
+2) <b>wsl2 오류</b>
+- wsl2이 제대로 작동을 하지 않아 Desktop으로 연결을 하지 못 함   
+![image](https://user-images.githubusercontent.com/44939208/154852926-c0b7a799-6065-4121-b195-bfb751671323.png) (이 사진처럼 경로가 잡히지 않음)  
+=> wsl2 재실행 및 Ubuntu 재설치
+
+3) Ubuntu로 실행하였지만 <b>docker: error response from daemon: invalid volume specification:</b> 에러 발생
+
+- 가상환경의 꼬임으로 인한 에러
+![image](https://user-images.githubusercontent.com/44939208/154853264-d80a3d8a-8303-409b-bbab-d85c47ee6091.png)  
+=> 리눅스 환경에서 새로운 가상환경 생성
+
+<h3>⭕ 성공 인증샷</h3>
+
+![image](https://user-images.githubusercontent.com/44939208/154852238-28f7d886-7d5d-405f-a37e-ac2567028c8a.png)
+
+<h3>🙆‍♀️ 느낀 점</h3>
+처음에 조금 더 자세히 알아봤으면 삽질하는 시간의 1/2은 줄어들지 않았을까라는 생각이 든다. 하지만 이번 기회를 통해 끝까지 해내면 되긴 된다라는 것을 느낄 수 있었다. 그리고 개발자가 되면 삽질하다가 성공했을 때의 짜릿한 기분을 매일 느끼겠구나 나쁘지 않다라는걸 느껴버렸다. (위험한거 같은데) 얼른 또 Product Serving 강의를 들어보고 싶다!
+
+
+<br>
+<b>틀리거나 어색한 부분이 있을 시에 댓글 혹은 메일로 알려주시면 감사하겠습니다 🙋‍♀️</b>
